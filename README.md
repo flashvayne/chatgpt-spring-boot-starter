@@ -1,5 +1,7 @@
 [![Maven central](https://maven-badges.herokuapp.com/maven-central/io.github.flashvayne/chatgpt-spring-boot-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.flashvayne/chatgpt-spring-boot-starter)
 
+[中文版文档](https://vayne.cc/2022/12/17/chatgpt-spring-boot-starter)
+
 # chatgpt-spring-boot-starter
 use chatgpt in springboot project easily
 
@@ -35,6 +37,9 @@ public void test(){
 
 ## Demo project：
 [demo-chatgpt-spring-boot-starter](https://github.com/flashvayne/demo-chatgpt-spring-boot-starter)
+
+## Demo online experience
+https://vayne.cc/chat/
 
 # Author Info
 Email: flashvayne@gmail.com
