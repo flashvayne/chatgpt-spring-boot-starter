@@ -41,6 +41,9 @@ public void test(){
 ## Demo online experience
 https://vayne.cc/chat/
 
+*This demo does not work now, because my account's request times quota is exceeded.  
+You can use your own account api-key to let your demo work.  
+
 # Author Info
 Email: flashvayne@gmail.com
 
