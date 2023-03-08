@@ -12,7 +12,7 @@ public class ChatgptProperties {
 
     private String model = "text-davinci-003";
 
-    private Integer maxTokens = 300;
+    private Integer maxTokens = 500;
 
     private Double temperature = 0.0;
 

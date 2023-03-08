@@ -25,7 +25,7 @@
       "name": "chatgpt.max-tokens",
       "type": "java.lang.Integer",
       "sourceType": "io.github.flashvayne.chatgpt.property.ChatgptProperties",
-      "defaultValue": 300,
+      "defaultValue": 500,
       "description": "The maximum number of tokens to generate in the completion.The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096)."
     },{
       "name": "chatgpt.temperature",

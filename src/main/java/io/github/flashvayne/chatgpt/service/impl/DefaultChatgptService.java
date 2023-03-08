@@ -24,6 +24,8 @@ public class DefaultChatgptService implements ChatgptService {
 
     private final String AUTHORIZATION;
 
+    private final RestTemplate restTemplate = new RestTemplate();
+
     public DefaultChatgptService(ChatgptProperties chatgptProperties) {
         this.chatgptProperties = chatgptProperties;
         AUTHORIZATION = "Bearer " + chatgptProperties.getApiKey();
@@ -56,7 +58,6 @@ public class DefaultChatgptService implements ChatgptService {
 
     public ChatResponse getResponse(HttpEntity<ChatRequest> chatRequestHttpEntity) {
         log.info("request url: {}, httpEntity: {}",URL, chatRequestHttpEntity);
-        RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<ChatResponse> responseEntity = restTemplate.postForEntity(URL, chatRequestHttpEntity, ChatResponse.class);
         if (responseEntity.getStatusCode().isError()) {
             log.error("error response status: {}", responseEntity);
