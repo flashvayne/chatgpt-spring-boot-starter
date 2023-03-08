@@ -4,7 +4,7 @@
 
 # chatgpt-spring-boot-starter
 Use chatgpt in springboot project easily.  
-This starter is based on Openai official Api.
+This starter is based on Openai Official Apis.
 
 ## Usage
 1.Add maven dependency.
