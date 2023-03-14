@@ -12,7 +12,7 @@
       "type": "java.lang.String",
       "sourceType": "io.github.flashvayne.chatgpt.property.ChatgptProperties",
       "defaultValue": "",
-      "description": "apiKey of chatgpt. It can be generated in this link https://beta.openai.com/docs/quickstart/adjust-your-settings"
+      "description": "apiKey of chatgpt. It can be generated in this link https://platform.openai.com/account/api-keys"
     },
     {
       "name": "chatgpt.model",

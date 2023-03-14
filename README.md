@@ -18,7 +18,7 @@ This starter is based on Openai Official Apis.
 2.Set chatgpt properties in your application.yml
 ```yml
 chatgpt:
-  api-key: xxxxxxxxxxx   #your api-key. It can be generated in the link https://beta.openai.com/docs/quickstart/adjust-your-settings
+  api-key: xxxxxxxxxxx   #your api-key. It can be generated in the link https://platform.openai.com/account/api-keys
 # some properties as below have default values. Of course, you can change them.
 #  max-tokens: 300           # The maximum number of tokens to generate in the completion.The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).
 #  model: text-davinci-003   # GPT-3 models can understand and generate natural language. We offer four main models with different levels of power suitable for different tasks. Davinci is the most capable model, and Ada is the fastest.
