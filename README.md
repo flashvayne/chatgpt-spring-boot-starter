@@ -22,13 +22,13 @@ chatgpt:
   api-key: xxxxxxxxxxx   #api-key. It can be generated here https://platform.openai.com/account/api-keys
 # some properties as below have default values. For descriptions of these fields, please refer to https://platform.openai.com/docs/api-reference/completions/create and https://platform.openai.com/docs/api-reference/chat/create
 #  url: https://api.openai.com/v1/completions
-#  max-tokens: 500
 #  model: text-davinci-003
+#  max-tokens: 500
 #  temperature: 0.0
 #  top-p: 1.0
 #  multi:
-#    model: gpt-3.5-turbo
 #    url: https://api.openai.com/v1/chat/completions
+#    model: gpt-3.5-turbo
 #    max-tokens: 500
 #    temperature: 0.0
 #    top-p: 1.0
