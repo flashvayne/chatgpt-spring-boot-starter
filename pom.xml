@@ -6,7 +6,7 @@
 
     <groupId>io.github.flashvayne</groupId>
     <artifactId>chatgpt-spring-boot-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <name>chatgpt-spring-boot-starter</name>
     <description>a starter to use chatgpt in springboot project easily</description>

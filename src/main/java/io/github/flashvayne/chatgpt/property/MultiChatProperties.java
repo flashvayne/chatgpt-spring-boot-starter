@@ -1,37 +1,16 @@
 package io.github.flashvayne.chatgpt.property;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
+public class MultiChatProperties {
 
-@Component
-@ConfigurationProperties(prefix = "chatgpt")
-public class ChatgptProperties {
+    private String url = "https://api.openai.com/v1/chat/completions";
 
-    private String apiKey = "";
-
-    private String url = "https://api.openai.com/v1/completions";
-
-    private String model = "text-davinci-003";
+    private String model = "gpt-3.5-turbo";
 
     private Integer maxTokens = 500;
 
     private Double temperature = 0.0;
 
     private Double topP = 1.0;
-
-    private MultiChatProperties multi;
-
-    public ChatgptProperties() {
-        this.multi = new MultiChatProperties();
-    }
-
-    public String getApiKey() {
-        return apiKey;
-    }
-
-    public void setApiKey(String apiKey) {
-        this.apiKey = apiKey;
-    }
 
     public String getUrl() {
         return url;
@@ -71,13 +50,5 @@ public class ChatgptProperties {
 
     public void setTopP(Double topP) {
         this.topP = topP;
-    }
-
-    public MultiChatProperties getMulti() {
-        return multi;
-    }
-
-    public void setMulti(MultiChatProperties multi) {
-        this.multi = multi;
     }
 }
