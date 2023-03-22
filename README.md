@@ -24,13 +24,13 @@ chatgpt:
 #  url: https://api.openai.com/v1/completions
 #  model: text-davinci-003
 #  max-tokens: 500
-#  temperature: 0.0
+  temperature: 1.0
 #  top-p: 1.0
-#  multi:
+  multi:
 #    url: https://api.openai.com/v1/chat/completions
 #    model: gpt-3.5-turbo
 #    max-tokens: 500
-#    temperature: 0.0
+    temperature: 1.0
 #    top-p: 1.0
 ```
 ### 3.Inject bean ChatgptService anywhere you require it, and invoke its method to send message to chatgpt and get the response.
