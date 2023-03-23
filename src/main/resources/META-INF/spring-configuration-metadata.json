@@ -12,7 +12,8 @@
       "type": "java.lang.String",
       "sourceType": "io.github.flashvayne.chatgpt.property.ChatgptProperties",
       "defaultValue": "",
-      "description": "apiKey of chatgpt. It can be generated in this link https://platform.openai.com/account/api-keys"
+      "description": "apiKey of chatgpt. It can be generated in this link https://platform.openai.com/account/api-keys",
+      "required": true
     },
     {
       "name": "chatgpt.model",
@@ -80,6 +81,12 @@
       "sourceType": "io.github.flashvayne.chatgpt.property.MultiChatProperties",
       "defaultValue": "1.0",
       "description": "An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered.We generally recommend altering this or temperature but not both."
+    },{
+      "name": "chatgpt.image.url",
+      "type": "java.lang.String",
+      "sourceType": "io.github.flashvayne.chatgpt.property.ImageProperties",
+      "defaultValue": "https://api.openai.com/v1/images/generations",
+      "description": "The request url."
     }
   ],
   "hints": []

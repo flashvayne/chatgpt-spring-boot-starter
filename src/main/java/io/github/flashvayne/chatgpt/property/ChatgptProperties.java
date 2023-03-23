@@ -21,8 +21,11 @@ public class ChatgptProperties {
 
     private MultiChatProperties multi;
 
+    private ImageProperties image;
+
     public ChatgptProperties() {
         this.multi = new MultiChatProperties();
+        this.image = new ImageProperties();
     }
 
     public String getApiKey() {
@@ -79,5 +82,13 @@ public class ChatgptProperties {
 
     public void setMulti(MultiChatProperties multi) {
         this.multi = multi;
+    }
+
+    public ImageProperties getImage() {
+        return image;
+    }
+
+    public void setImage(ImageProperties image) {
+        this.image = image;
     }
 }
