@@ -11,7 +11,7 @@ This starter is based on OpenAi Official Apis. You can use chatgpt in springboot
 
 + Image generation
 
-  Given a prompt and get generated image(s).
+  Give a prompt and get generated image(s).
 
 ## Usage
 ### 1.Add maven dependency.
