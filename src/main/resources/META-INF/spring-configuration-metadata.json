@@ -38,7 +38,7 @@
       "name": "chatgpt.temperature",
       "type": "java.lang.Double",
       "sourceType": "io.github.flashvayne.chatgpt.property.ChatgptProperties",
-      "defaultValue": "0.0",
+      "defaultValue": "1.0",
       "description": "What sampling temperature to use. Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer.We generally recommend altering this or top_p but not both."
     },{
       "name": "chatgpt.top-p",
@@ -59,7 +59,7 @@
       "name": "chatgpt.multi.url",
       "type": "java.lang.String",
       "sourceType": "io.github.flashvayne.chatgpt.property.MultiChatProperties",
-      "defaultValue": "https://api.openai.com/v1/completions",
+      "defaultValue": "https://api.openai.com/v1/chat/completions",
       "description": "The request url."
     },
     {
@@ -72,7 +72,7 @@
       "name": "chatgpt.multi.temperature",
       "type": "java.lang.Double",
       "sourceType": "io.github.flashvayne.chatgpt.property.MultiChatProperties",
-      "defaultValue": "0.0",
+      "defaultValue": "1.0",
       "description": "What sampling temperature to use. Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer.We generally recommend altering this or top_p but not both."
     },{
       "name": "chatgpt.multi.top-p",

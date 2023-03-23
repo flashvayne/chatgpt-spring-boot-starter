@@ -8,7 +8,7 @@ public class MultiChatProperties {
 
     private Integer maxTokens = 500;
 
-    private Double temperature = 0.0;
+    private Double temperature = 1.0;
 
     private Double topP = 1.0;
 
