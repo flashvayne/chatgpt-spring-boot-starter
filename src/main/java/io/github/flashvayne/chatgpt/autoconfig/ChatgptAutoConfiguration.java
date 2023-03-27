@@ -15,10 +15,11 @@ import org.springframework.context.annotation.Configuration;
 @EnableConfigurationProperties(ChatgptProperties.class)
 public class ChatgptAutoConfiguration {
 
-    @Autowired
-    private ChatgptProperties chatgptProperties;
+    private final ChatgptProperties chatgptProperties;
 
-    public ChatgptAutoConfiguration(){
+    @Autowired
+    public ChatgptAutoConfiguration(ChatgptProperties chatgptProperties){
+        this.chatgptProperties = chatgptProperties;
         log.debug("chatgpt-springboot-starter loaded.");
     }
 
