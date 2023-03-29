@@ -10,10 +10,7 @@ import io.github.flashvayne.chatgpt.property.ChatgptProperties;
 import io.github.flashvayne.chatgpt.dto.ChatResponse;
 import io.github.flashvayne.chatgpt.service.ChatgptService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -117,9 +114,9 @@ public class DefaultChatgptService implements ChatgptService {
     protected <T> T getResponse(HttpEntity<?> httpEntity, Class<T> responseType, String url) {
         log.info("request url: {}, httpEntity: {}", url, httpEntity);
         ResponseEntity<T> responseEntity = restTemplate.postForEntity(url, httpEntity, responseType);
-        if (responseEntity.getStatusCode().isError()) {
+        if (responseEntity.getStatusCodeValue() != HttpStatus.OK.value()) {
             log.error("error response status: {}", responseEntity);
-            throw new ChatgptException("error response status :" + responseEntity.getStatusCode().value());
+            throw new ChatgptException("error response status :" + responseEntity.getStatusCodeValue());
         } else {
             log.info("response: {}", responseEntity);
         }
