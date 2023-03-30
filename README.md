@@ -1,7 +1,5 @@
 [![Maven central](https://maven-badges.herokuapp.com/maven-central/io.github.flashvayne/chatgpt-spring-boot-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.flashvayne/chatgpt-spring-boot-starter)
 
-[中文版文档](https://vayne.cc/2022/12/17/chatgpt-spring-boot-starter)
-
 # chatgpt-spring-boot-starter
 This starter is based on OpenAi Official Apis. You can use chatgpt in springboot project easily.  
 ## Functions:
@@ -19,7 +17,7 @@ This starter is based on OpenAi Official Apis. You can use chatgpt in springboot
 <dependency>
     <groupId>io.github.flashvayne</groupId>
     <artifactId>chatgpt-spring-boot-starter</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 </dependency>
 ```
 ### 2.Set chatgpt properties in your application.yml
@@ -89,12 +87,6 @@ public void testImageList(){
 
 ## Demo project：
 [demo-chatgpt-spring-boot-starter](https://github.com/flashvayne/demo-chatgpt-spring-boot-starter)
-
-## Demo online experience
-https://vayne.cc/chat/
-
-*This demo does not work now, because my account's request times quota is exceeded.  
-You can use your own account api-key to let your demo work.  
 
 # Author Info
 Email: flashvayne@gmail.com
