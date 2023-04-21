@@ -92,3 +92,9 @@ public void testImageList(){
 Email: flashvayne@gmail.com
 
 Blog: https://vayne.cc
+
+# Acknowledgments
+
+Thanks to JetBrains for their support of this project. They provided JetBrains Development Tool lisences for us.
+
+![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)
