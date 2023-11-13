@@ -9,7 +9,7 @@ public class ChatgptProperties {
 
     private String apiKey = "";
 
-    private String url = "https://api.openai.com/v1/completions";
+    private String url = "https://api.openai.com/v1/chat/completions";
 
     private String model = "text-davinci-003";
 
