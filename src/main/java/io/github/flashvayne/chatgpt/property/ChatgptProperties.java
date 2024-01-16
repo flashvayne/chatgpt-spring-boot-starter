@@ -11,7 +11,7 @@ public class ChatgptProperties {
 
     private String url = "https://api.openai.com/v1/completions";
 
-    private String model = "text-davinci-003";
+    private String model = "gpt-3.5-turbo-instruct";
 
     private Integer maxTokens = 500;
 

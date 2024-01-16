@@ -19,7 +19,7 @@
       "name": "chatgpt.model",
       "type": "java.lang.String",
       "sourceType": "io.github.flashvayne.chatgpt.property.ChatgptProperties",
-      "defaultValue": "text-davinci-003",
+      "defaultValue": "gpt-3.5-turbo-instruct",
       "description": "ID of the model to use. You can see our Model overview (https://platform.openai.com/docs/models/overview) for descriptions of them."
     },
     {
